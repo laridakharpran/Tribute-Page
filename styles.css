@@ -1,0 +1,130 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonts and Background */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #2c5364, #203a43, #0f2027);
+  color: #f0f0f0;
+  line-height: 1.6;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header */
+#title {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #00c6ff;
+  animation: fadeInDown 2s ease;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #9f9f9f;
+  margin-top: 5px;
+}
+
+/* Image Section */
+#img-div {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+#image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  display: block;
+}
+
+#img-caption {
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 1rem;
+  color: #dcdcdc;
+}
+
+/* Tribute Info */
+#tribute-info {
+  font-size: 1.1rem;
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: justify;
+}
+
+/* Timeline Section */
+.stylish-list {
+  margin: 30px auto;
+  max-width: 700px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.stylish-list ul {
+  list-style-type: decimal-leading-zero;
+  padding: 0 20px;
+}
+
+.stylish-list li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.stylish-list li::marker {
+  font-size: 1.2rem;
+  color: #00c6ff;
+}
+
+/* Quote Section */
+.bold {
+  font-style: italic;
+  margin: 30px auto;
+  font-size: 1.2rem;
+  font-weight: 300;
+  max-width: 600px;
+  border-left: 5px solid #00c6ff;
+  padding-left: 15px;
+  color: #e0e0e0;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+}
+
+#tribute-link {
+  font-size: 1.1rem;
+  color: #00c6ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
