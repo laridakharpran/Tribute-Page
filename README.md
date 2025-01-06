@@ -1,6 +1,6 @@
 # Tribute Page
 
-<img src="https://i.ibb.co/xg6tPzb/2025-01-06-031438.png" alt="2025-01-06-031438" border="0">
+<img src="https://i.ibb.co/dt5CYvX/2025-01-06-060023.png" alt="2025-01-06-060023" border="0">
 
 # Build a Tribute Page
 
